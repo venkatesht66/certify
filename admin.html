@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Admin Panel - Manage Certificates</h2>
+
+    <h3>Add Certificate</h3>
+    <input type="text" id="certId" placeholder="Certificate ID">
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="pdfUrl" placeholder="PDF URL">
+    <button onclick="addCertificate()">Add</button>
+
+    <h3>Certificates</h3>
+    <div id="certList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
